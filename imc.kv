@@ -1,0 +1,21 @@
+<IMCCalculator>:
+    canvas.before:
+        Color:
+            rgba: 0.8, 0.9, 1, 1  # Cor azul claro
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    orientation: "vertical"
+
+<Label>:
+    font_size: 18
+    color: 0, 0, 1, 1  # Texto azul
+    halign: "center"
+    valign: "middle"
+
+<Button>:
+    size_hint:1, 0.3
+    font_size: 20
+    background_color: 0, 0.5, 1, 1  # Azul
+    color: 1, 1, 1, 1  # Texto branco
+    background_normal: ''
